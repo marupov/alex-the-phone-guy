@@ -75,6 +75,22 @@ export default function AlexThePhoneGuyWebsite() {
         </div>
       </section>
 
+<section className="max-w-6xl mx-auto px-6 py-20">
+  <h2 className="text-3xl md:text-4xl font-bold mb-6">
+    We Buy Phones & Electronics in Omaha
+  </h2>
+
+  <p className="text-zinc-300 text-lg leading-8 max-w-4xl">
+    Alex The Phone Guy buys used, broken, locked, and new phones,
+    tablets, laptops, gaming consoles, Apple Watches, AirPods,
+    cameras, and other electronics for cash in Omaha, Bellevue,
+    Council Bluffs, Lincoln, and surrounding areas.
+
+    We offer fast quotes, same-day meetups, and fair cash offers
+    for your devices.
+  </p>
+</section>
+
       {/* LOGO STRIP */}
       <section className="border-y border-zinc-800 bg-zinc-950">
         <div className="max-w-7xl mx-auto px-6 py-10 flex flex-col md:flex-row items-center justify-center gap-8">

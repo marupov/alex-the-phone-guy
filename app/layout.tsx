@@ -13,9 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: 'Alex The Phone Guy',
-  description: 'We buy phones, electronics, laptops, consoles and more for quick cash in Omaha and surrounding areas.',
-}
+  title: "Alex The Phone Guy | Sell Phones & Electronics for Cash in Omaha",
+  description:
+    "Sell your used, broken, locked, or new phones, laptops, tablets, consoles, and electronics for cash in Omaha, Bellevue, Council Bluffs, Lincoln, and surrounding areas. Same-day meetups available.",
+};
 
 export default function RootLayout({
   children,
