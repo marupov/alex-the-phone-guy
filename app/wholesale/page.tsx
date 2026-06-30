@@ -17,21 +17,21 @@ export default function BulkPage() {
           </p>
 
           <div className="flex gap-4 flex-wrap">
-            <a
-              href="tel:+15312139198"
-              className="bg-blue-600 hover:bg-blue-700 px-6 py-4 rounded-lg font-semibold"
-            >
-              Call Now
-            </a>
+  <a
+    href="tel:+15312139198"
+    className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg font-semibold transition"
+  >
+    Call Now
+  </a>
 
-            <a
-              href="/"
-              className="border border-white px-6 py-4 rounded-lg"
-            >
-              Visit Main Website
-            </a>
-          </div>
-
+  <a
+    href="#request-offer"
+    className="border border-white text-white hover:bg-white hover:text-black px-8 py-4 rounded-lg font-semibold transition"
+  >
+    Request an Offer
+  </a>
+</div>
+    
         </div>
       </section>
 
@@ -124,8 +124,7 @@ export default function BulkPage() {
           </h2>
 
           <p className="text-xl text-gray-600 mb-10">
-            Fast payment. Fair offers. Nationwide buying.
-            Contact us today and receive a quote.
+           Fast payment. Competitive offers. Trusted wholesale buyer.
           </p>
 
           <a
@@ -138,6 +137,106 @@ export default function BulkPage() {
         </div>
 
       </section>
+
+    <section className="bg-gray-50 py-24">
+  <div className="max-w-6xl mx-auto px-6">
+    <h2 className="text-4xl font-bold text-center mb-14">
+      Why Companies Choose Alex The Phone Guy
+    </h2>
+
+    <div className="grid md:grid-cols-3 gap-8">
+
+      <div className="bg-white rounded-xl shadow-sm p-8">
+        <h3 className="text-2xl font-semibold mb-3">
+          Fast Payment
+        </h3>
+        <p className="text-gray-600">
+          Same-day offers with payment by wire transfer, ACH, cash, or other secure methods.
+        </p>
+      </div>
+
+      <div className="bg-white rounded-xl shadow-sm p-8">
+        <h3 className="text-2xl font-semibold mb-3">
+          Any Quantity
+        </h3>
+        <p className="text-gray-600">
+          From 20 devices to several thousand, we purchase wholesale inventories of all sizes.
+        </p>
+      </div>
+
+      <div className="bg-white rounded-xl shadow-sm p-8">
+        <h3 className="text-2xl font-semibold mb-3">
+          Simple Process
+        </h3>
+        <p className="text-gray-600">
+          Send your inventory list or photos, receive an offer, ship or schedule pickup, and get paid quickly.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section
+  id="request-offer"
+  className="max-w-6xl mx-auto px-6 py-24 flex flex-col items-center"
+>
+  <h2 className="text-4xl font-bold mb-6 text-center">
+    Request a Wholesale Offer
+</h2>
+
+  <p className="text-lg text-gray-600 mb-10 max-w-2xl text-center">
+    Complete the form below and we'll review your inventory and contact you with a competitive offer, typically within one business day.</p>
+    <form
+  action="https://formspree.io/f/mvzjbzgw"
+  method="POST"
+  className="grid gap-5 w-full max-w-3xl"
+>
+  <input
+  type="text"
+  name="company"
+  placeholder="Company Name"
+  className="border rounded-lg p-4"
+/>
+
+  <input
+  type="text"
+  name="contact"
+  placeholder="Contact Name"
+  className="border rounded-lg p-4"
+/>
+
+  <input
+  type="email"
+  name="email"
+  placeholder="Email"
+  className="border rounded-lg p-4"
+/>
+
+  <input
+  type="tel"
+  name="phone"
+  placeholder="Phone Number"
+  className="border rounded-lg p-4"
+/>
+
+ <textarea
+  name="inventory"
+  rows={6}
+  placeholder="Tell us about your inventory. Include device models, quantities, condition, carrier status, etc."
+  className="border rounded-lg p-4"
+/>
+
+ <button
+  type="submit"
+  className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4 rounded-lg"
+>
+  Request an Offer
+</button>
+
+    </form>
+  
+</section>
 
     </main>
   );
