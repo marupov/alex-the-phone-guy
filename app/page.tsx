@@ -325,25 +325,36 @@ export default function AlexThePhoneGuyWebsite() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-20 bg-black border-t border-zinc-800">
-        <div className="max-w-5xl mx-auto px-6 text-center">
-          <h2 className="text-4xl md:text-6xl font-black leading-tight">
-            Ready To Sell Your Device?
-          </h2>
+     {/* CTA */}
+<section className="py-20 bg-black border-t border-zinc-800">
+  <div className="max-w-5xl mx-auto px-6 text-center">
+    <h2 className="text-4xl md:text-6xl font-black leading-tight">
+      Ready To Sell Your Device?
+    </h2>
 
-          <p className="mt-6 text-zinc-400 text-lg max-w-2xl mx-auto leading-relaxed">
-            Fast offers. Local meetups. Same-day cash.
-          </p>
+    <p className="mt-6 text-zinc-400 text-lg max-w-2xl mx-auto leading-relaxed">
+      Fast offers. Local meetups. Same-day cash.
+    </p>
 
-          <a
-            href="tel:5312139198"
-            className="inline-block mt-10 bg-green-500 hover:bg-green-400 text-black transition-all px-10 py-5 rounded-2xl text-xl font-black shadow-2xl shadow-green-500/20"
-          >
-            Call 531-213-9198
-          </a>
-        </div>
-      </section>
+    <a
+      href="tel:5312139198"
+      className="inline-block mt-10 bg-green-500 hover:bg-green-400 text-black transition-all px-10 py-5 rounded-2xl text-xl font-black shadow-2xl shadow-green-500/20"
+    >
+      Call 531-213-9198
+    </a>
+
+    <p className="mt-8 text-zinc-500">
+      Selling business or bulk electronics inventory?
+    </p>
+
+    <a
+      href="/wholesale"
+      className="inline-block mt-3 text-blue-400 hover:text-blue-300 font-bold transition-colors"
+    >
+      Sell Wholesale Inventory →
+    </a>
+  </div>
+</section>
 
       {/* FOOTER */}
       <footer className="border-t border-zinc-900 py-10 bg-black">
