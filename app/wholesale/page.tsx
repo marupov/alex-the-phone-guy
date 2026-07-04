@@ -71,6 +71,7 @@ export default function WholesalePage() {
   return (
     <main className="min-h-screen bg-white text-gray-900">
 
+
 <script
   type="application/ld+json"
   dangerouslySetInnerHTML={{
@@ -80,6 +81,15 @@ export default function WholesalePage() {
 
       {/* Hero */}
       <section className="bg-black text-white">
+        <div className="max-w-6xl mx-auto px-6 pt-6">
+  <a
+    href="/"
+    className="inline-flex items-center border border-gray-700 hover:border-gray-500 text-gray-300 hover:text-white px-4 py-2 rounded-lg text-sm font-semibold transition"
+  >
+    ← Back to Main Site
+  </a>
+</div>
+
         <div className="max-w-6xl mx-auto px-6 py-24 grid lg:grid-cols-2 gap-16 items-start">
 <div>
           <h1 className="text-5xl font-bold mb-6">
