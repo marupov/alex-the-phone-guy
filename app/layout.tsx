@@ -44,6 +44,40 @@ export default function RootLayout({
     `}
   </Script>
 
+<Script id="google-click-to-call">
+  {`
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+
+      gtag('event', 'conversion', {
+        'send_to': 'AW-18165696852/nZTOCOiFtcoCENSsitZD',
+        'value': 1.0,
+        'currency': 'USD',
+        'event_callback': callback
+      });
+
+      return false;
+    }
+  `}
+</Script>
+
+<Script id="track-phone-clicks" strategy="afterInteractive">
+  {`
+    document.addEventListener('click', function(event) {
+      var link = event.target.closest('a[href^="tel:"]');
+
+      if (link) {
+        event.preventDefault();
+        gtag_report_conversion(link.href);
+      }
+    });
+  `}
+</Script>
+
   {children}
 </body>
     </html>
