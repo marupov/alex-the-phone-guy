@@ -3,16 +3,31 @@ export default function AlexThePhoneGuyWebsite() {
     <div className="min-h-screen bg-black text-white font-sans scroll-smooth">
       {/* HERO SECTION */}
       <section className="relative overflow-hidden bg-gradient-to-b from-black via-zinc-900 to-zinc-950">
+        <a
+  href="/wholesale"
+  className="hidden lg:inline-flex absolute top-6 right-6 z-20 items-center px-4 py-2 rounded-full border border-zinc-700 bg-zinc-900 hover:bg-zinc-800 text-sm font-semibold text-zinc-300 hover:text-white transition-all"
+>
+  Wholesale
+</a>
         <div className="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_top,rgba(59,130,246,0.5),transparent_40%)]" />
 
         <div className="max-w-7xl mx-auto px-6 py-16 lg:py-24 grid lg:grid-cols-2 gap-12 items-center relative z-10">
           <div>
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-zinc-700 bg-zinc-900 mb-6">
-              <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-              <span className="text-sm tracking-wide text-zinc-300">
-                Same-Day Meetups Available
-              </span>
-            </div>
+            <div className="flex items-center gap-3 mb-6">
+  <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-zinc-700 bg-zinc-900">
+    <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+    <span className="text-sm tracking-wide text-zinc-300">
+      Same-Day Meetups Available
+    </span>
+  </div>
+
+  <a
+    href="/wholesale"
+    className="lg:hidden inline-flex items-center px-4 py-2 rounded-full border border-zinc-700 bg-zinc-900 hover:bg-zinc-800 text-sm font-semibold text-zinc-300 hover:text-white transition-all"
+  >
+    Wholesale
+  </a>
+</div>
 
             <h1 className="text-5xl md:text-7xl font-black leading-tight tracking-tight">
               Sell Your
@@ -373,8 +388,7 @@ export default function AlexThePhoneGuyWebsite() {
       {/* FLOATING CALL BUTTON */}
       <a
         href="tel:5312139198"
-        className="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-400 text-black px-6 py-4 rounded-full shadow-2xl font-black text-lg"
-      >
+className="fixed bottom-4 right-4 md:bottom-6 md:right-6 z-50 bg-green-500 hover:bg-green-400 text-black px-5 py-3 md:px-6 md:py-4 rounded-full shadow-2xl font-black text-base md:text-lg"      >
         📞 Call Now
       </a>
     </div>
